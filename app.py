@@ -44,6 +44,12 @@ def ver_registros():
 def ver_peritajes():
     return jsonify(peritajes)
 
+@app.route('/api/inventario')
+def inventario():
+    return jsonify({
+        "mensaje": "Inventario en desarrollo"
+    })
+
 # Ruta POST peritajes (Esta es la que procesa y guarda la nueva placa)
 @app.route('/api/peritajes', methods=['POST'])
 def agregar_peritaje():
