@@ -60,7 +60,9 @@ def agregar_peritaje():
         return jsonify({"error": "Falta el campo 'placa' en la petición"}), 400
 
     nueva_placa = {
-        "placa": data["placa"].upper()
+
+        "placa": data["placa"].upper()  # Convertimos a mayúsculas para mantener consistencia
+
     }
 
     peritajes.append(nueva_placa)
