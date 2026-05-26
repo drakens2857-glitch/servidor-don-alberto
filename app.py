@@ -12,12 +12,17 @@ registros = {
         {
             "moto": "Ford Raptor",
             "placa": "NSB308",
-            "estado": "Cmabio llantas"
+            "estado": "Cambio llantas"
         },
         {
             "moto": "Kawasaki FZ900",
             "placa": "NSB830",
             "estado": "Mantenimiento"
+        },
+        {
+            "moto": "pulsar 200NS",
+            "placa": "NSB832",
+            "estado": "Cambio de aceite"
         }
     ]
 }
